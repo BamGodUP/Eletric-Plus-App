@@ -1,0 +1,85 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: rgb(226, 226, 45);
+    font-family: "Madimi One", sans-serif;
+    font-size: 30px;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url('material/banner.png');
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.tops1
+{
+    transition: transform 0.1s ease;
+}
+
+.tops1:hover
+{
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+section p {
+    color: #666;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-family: "Madimi One", sans-serif;
+}
